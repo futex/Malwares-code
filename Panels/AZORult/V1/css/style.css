@@ -1,0 +1,152 @@
+BODY { 
+	font-family: "Helvetica Neueu", Helvetica, Arial, sans-serif;
+
+	background-color: #883939;
+	margin: 0;
+	//background: #fc0;
+	background: url(../img/back/14.png) no-repeat #883939;
+	background-attachment: fixed;
+	background-size: 100%;
+	//background:  linear-gradient(to top, #243949, #517fa4)  no-repeat #243949;
+}
+
+
+.edit {
+    border:1px solid #9E9E9E;
+    color: #FFFFFF;
+    padding: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 11px;
+    font-family: Verdana;
+    background: #3A3333;
+}
+
+.sbutton {
+    border:1px solid #9E9E9E;
+    color: #FFFFFF;
+    padding: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 11px;
+    font-family: Verdana;
+    background: #3A3333;
+	cursor: pointer;
+}
+
+.page-all{
+	
+}
+
+.page-header-logo{
+	width: 100px;
+	height: 100%;
+	background: rgba(0, 0, 0, 0) url("../img/logo.png") no-repeat scroll center center / cover;
+}
+
+.page-header{
+	width: 100%;
+	height: 50px;
+	background-color: #3A3333;
+}
+
+
+.page-content{
+
+}
+
+.page-left-bar{
+	position:absolute;
+	margin-right: auto;
+	
+	width: 18%;
+	min-height: 800px;
+	background-color: rgba(51, 56, 52, 0.8);
+	border-radius: 0px 0px 15px 0px;
+	border: 3px;
+	border-style: solid;
+}
+
+.page-data{
+	position:relative;
+	margin-left: auto;
+	margin-top: 25px;
+	
+	width: 80%;
+	min-height: 800px;
+	background-color: rgba(51, 56, 52, 0.8);
+	border-radius: 15px 0px 0px 15px;
+	border: 3px;
+	border-style: solid;
+}
+
+
+.info-text1{
+	background: linear-gradient(to top, #131614, #222A2F)  no-repeat #131614;
+	color: #E6E6FA;
+	padding: 10px;
+	margin: 5px;
+}
+
+
+.reports-table{
+		border-style: solid;
+		border-color: #131614;
+		width: 99%;
+		margin: auto;
+		font-size: 13px;
+
+}
+
+.reports-table th{
+		background: linear-gradient(to top, #131614, #222A2F)  no-repeat #131614;
+		color: #E6E6FA;
+		padding: 1px;
+		
+		
+}
+
+.reports-table tr{
+		background-color: #e9e9e9 ;
+		padding: 10px;
+}
+
+.reports-table caption{
+		background-color: #131614 ;
+		
+}
+
+.config-table{
+		color: white;
+		border-style: solid;
+		border-color: rgba(128,128,128, 0.2); 
+		
+}
+
+.config-table tr{
+		background-color: 	rgba(128,128,128, 0.2) ;
+		padding: 2px;
+		margin: 5px;
+
+}
+
+.config-table td{
+		padding-left: 5px;
+
+
+}
+
+.config-button {
+		border-color: red;
+		background-color: 	rgba(128,128,128, 0.2) ;
+		color: white;
+		padding-left: 5px;
+		cursor: pointer;
+
+
+}
+
+
+
+
+

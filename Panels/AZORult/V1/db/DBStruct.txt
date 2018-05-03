@@ -1,0 +1,25 @@
+machines
+	*m_id
+	 m_user
+	 m_name
+	 m_os
+	 
+	 
+reports
+	*r_id
+	 m_id
+	 r_date
+	 r_ip
+	 r_param
+	 r_file
+	 
+passwords
+	p_soft_type
+	p_soft_name
+	p_p1
+	p_p2
+	p_p3
+	p_p4
+	r_id
+	 
+	

